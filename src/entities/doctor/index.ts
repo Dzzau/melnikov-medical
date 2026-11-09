@@ -1,0 +1,1 @@
+export type {Doctor, DoctorCategory} from './model/types'
