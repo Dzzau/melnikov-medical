@@ -5,8 +5,7 @@ export interface Doctor {
     fullName: string;
     photoUrl: string;
     position: string;
-    direction: string;
-    directionId: string;
+    directionId: string; //одно направление
     category?: DoctorCategory;
     experienceYears: number;
     education: string[];
